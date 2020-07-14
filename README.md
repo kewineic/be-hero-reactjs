@@ -9,10 +9,10 @@ Solução para cadastro de ONGS e causas beneficentes que necessitam de doadores
 
 ### Funcionalidades:
 - Consumo de API RESTFul para consulta de entidades através de um ID validador de acesso (login/logout). 
-- Inserção de entidades em API RESTFul com o retorno do ID gerado em tela para válidar acesso de consultas posteriores.
-- Consulta de dados/objetos em tela consumindo API RESTFul.
-- Inserção de dados/objetos, exibidos em tela, através de uma API RESTFul.
-- Remoção de dados/objetos da tela e do banco de dados via API RESTFul.
+- Inserção de entidades em API RESTFul com o retorno do ID(hash) gerado em tela para válidar acesso posterior.
+- Consulta de dados/objetos, de uma entidade específica e com acesso válidado via hash, em tela consumindo API RESTFul.
+- Inserção de dados/objetos, exibidos em tela, em uma entidade específica e com acesso válidado via hash, através de uma API RESTFul.
+- Remoção de dados/objetos da tela e do banco de dados, de uma entidade específica e com acesso válidado via hash, através API RESTFul.
 
 ### Stack:
 - HTML5
